@@ -64,3 +64,20 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+### Course commands
+
+```shell
+$ forge script script/DeployFundMe.s.sol --broadcast -vvvv
+$ souurce .env
+$ echo $SEPOLIA_RPC_URL
+$ foundryup
+$ forge test -vvv --fork-url $SEPOLIA_RPC_URL 
+$ forge test --mt testPriceFeedVersionIsAccurate
+$ forge test --mt testPriceFeedVersionIsAccurate --fork-url $SEPOLIA_RPC_URL
+$ forge coverage --fork-url $SEPOLIA_RPC_URL
+$ forge test --fork-url $MAINNET_RPC_URL
+$ chisel
+$ forge inspect FundMe storageLayout
+```
+
